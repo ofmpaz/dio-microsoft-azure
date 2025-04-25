@@ -1,0 +1,40 @@
+# ☁️ Criando Máquinas Virtuais no Microsoft Azure
+
+Este repositório documenta os passos realizados durante o desafio "Criando Máquinas Virtuais na Azure", da formação Microsoft Azure da DIO. O objetivo foi praticar a criação, configuração e entendimento dos recursos envolvidos na utilização de VMs (Virtual Machines) na nuvem.
+
+## 📌 Objetivo do Desafio
+
+- Criar uma **máquina virtual Windows** utilizando o Portal do Azure;
+- Explorar os recursos disponíveis no processo de configuração;
+- Documentar a experiência com anotações, imagens e dicas úteis.
+
+## 🧭 Etapas Realizadas
+
+1. **Criação da conta gratuita no Azure** com crédito de avaliação.
+2. **Acesso ao portal do Azure** via [portal.azure.com](https://portal.azure.com).
+3. Navegação até **"Máquinas Virtuais"** > **Criar nova VM**.
+4. Preenchimento das informações básicas (nome, região, imagem do sistema).
+5. Escolha do tamanho da VM e autenticação via senha.
+6. Configuração da porta RDP para acesso remoto.
+7. Criação do grupo de recursos e rede virtual.
+8. Finalização e execução da criação da máquina.
+
+## 🖼️ Capturas de Tela
+
+As imagens da criação da máquina virtual estão disponíveis na pasta [`/images`](./images).
+
+## 💡 Dicas e Anotações
+
+- Sempre verificar o **grupo de recursos**, facilita o gerenciamento e a exclusão dos recursos após testes.
+- Ativar o **monitoramento básico** é útil para aprender sobre métricas no Azure.
+- A **porta 3389 (RDP)** deve estar aberta se quiser acessar a VM remotamente.
+- Após o uso, **desligue ou exclua** a máquina para não consumir créditos.
+
+## 📚 Fontes e Referências
+
+- [Início rápido: Criar uma VM no Azure (Microsoft Docs)](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
+- [Documentação oficial do Azure](https://learn.microsoft.com/pt-br/azure/)
+
+---
+
+Projeto realizado como parte da formação **Microsoft Azure** na [DIO.me](https://www.dio.me)
